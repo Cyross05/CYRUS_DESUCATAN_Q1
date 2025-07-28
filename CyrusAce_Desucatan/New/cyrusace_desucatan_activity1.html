@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>Sign-In</title>
+    </head>
+    <body>
+        <h1>Fill-up Form</h1>
+        <fieldset>
+        <legend>Personal Information</legend>
+        <label for="Fname">Full Name:</label>
+        <input type="text" id="Fname" name="Fname"><br>
+        <label for="Email">Email Address:</label>
+        <input type="email" id="Email" name="Email"><br>
+        <label for="birthdate">Date of Birth:</label>
+        <input type="date" id="birthdate" name="birthdate"><br>
+        </fieldset>
+        <fieldset>
+        <legend>Account Details</legend>
+        <label for="Username">Username:</label>
+        <input type="text" id="Username" name="Username"><br>
+        <label for="Pword">Password:</label>
+        <input type="password" id="Pword" name="Pword"><br>
+        </fieldset>
+        <fieldset>
+        <legend>Preferences</legend>
+        <label for="SP">Subscription Plan:</label>
+        <select name="SP" id="SP">
+            <option value="F">Free</option>
+            <option value="P">Premium</option>
+        </select><br>
+        <p>Notification Preferences</p>
+        <input type="checkbox" id="Em" name="Preferences" value="Em">
+        <label for="Em">Email</label>
+        <input type="checkbox" id="sms" name="Preferences" value="sms">
+        <label for="sms">SMS</label>
+        <input type="checkbox" id="PN" name="Preferences" value="PN">
+        <label for="PN">Push Notification</label><br>
+        </fieldset>
+        <fieldset>
+        <Legend>Additional Information</Legend>
+        <label for="BB">Brief Bio:</label>
+        <textarea name="BB" id="BB" rows="5" cols="30">
+        </textarea><br>
+        <p>How did you here about us?</p>
+        
+        <input type="radio" id="SM" name="How" value="SM">
+        <label for="SM">Social Media</label>
+        <input type="radio" id="F" name="How" value="F">
+        <label for="F">Friend</label>
+        <input type="radio" id="SE" name="How" value="SE">
+        <label for="SE">Search Engine</label>
+        <input type="radio" id="Ot" name="How" value="Ot">
+        <label for="Ot">Other</label>
+        </fieldset>
+
+    </body>
+</html>
