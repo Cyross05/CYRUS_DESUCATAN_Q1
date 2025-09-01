@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Enrollment Form</title>
+    </head>
+    <body>
+        <h3><b>BASIC EDUCATION ENROLLMENTFORM</b></h3>
+        <p>THIS FORM IS NOT SALE</p>
+        <label for="SYear">School Year:</label>
+        <input type="text" id="SYear" name="SYear" placeholder="School Year"><br>
+        <label for="GLtE">Grade Level to Enroll:</label>
+        <input type="text" id="GLtE" name="GLtE" placeholder="Grade level to Enroll">
+        <fieldset>
+            <p>check the appropriate box only</p>
+            <ol>
+                <li>With LRN <input type="radio" id="YES" name="LRN" value="YES"><label for="YES">Yes</label></li>
+                <li>Returning(Balik-Aral) <input type="radio" id="NO" name="LRN" value="NO"><label for="NO">No</label></li>
+            </ol>
+        </fieldset>
+        <h3>INSTURCTIONS:</h3>
+        <p>Print legibly all Information required in CAPITAL letters. Submit accomplished form to the Person-in-Charge/Register/Class Adviser. Use black or blue pen only.</p>
+        <fieldset>
+            <legend>LEARNER INFORMATION</legend>
+            <label for="PSABirth">PSA Brith Certificate No. (id available upon registration)</label>
+            <input type="text" id="PSABirth" name="PSABirth" Birth Certificate No><br>
+            <label for="LRNLast">(LRN)Last Name</label>
+            <input type="text" id="LRNLast" name="LRNLast" placeholder="Last Name"><br>
+            <label for="FN">First Name</label>
+            <input type="text" id="FN" name="FN" placeholder="First Name">br
+            <label for="MN">Middle Name</label>
+            <input type="text" id="MN" name="MN" placeholder="Middle Name"><br>
+            <label for="EXTN">Extention Name e.g. Jr., Sr., III(if applicable)</label>
+            <input type="text" id="EXTN" name="EXTN" placeholder="Extention Name"><br>
+            <label for="LN">Learner Number</label>
+            <input type="text" id="LN" name="LN" placeholder="Learner Number"><br>
+            <label for="BDay">Birth:</label>
+            <input type="date" id="BDay" name="BDay"><br>
+            <label for="sex">Sex:</label>
+            <select name="sex" id="sex">
+            <option value="">-</option>
+            <option value="M">Male</option>
+            <option value="F">Female</option>
+            </select><br>
+            <label for="age">Age:</label>
+            <input type="text" id="age" name="age" placeholder="Age"><br>
+            <label for="POB">Place of Birth:</label>
+            <input type="text" id="POB" name="POB" placeholder="Place of Birth"><br>
+            <label for="MT">Mother Tongue:</label>
+            <input type="text" id="MT" name="MT" placeholder="Mother Tongue"><br>
+            <p>Belonging to any <b>Indigenous Peoples (IP) Community/Indigenous Cultural Community</b></p>
+            <input type="radio" id="YESS" name="INDI" value="YESS">
+            <label for="YESS">Yes</label>
+            <input type="radio" id="NNO" name="INDI" value="NNO">
+            <label for="NNO">No</label>
+            <label for="IFYES">If yes, please specify:</label>
+            <input type="text" id="IFYES" name="IFYES" placeholder="Indigenous Community"><br>
+            <p>is your family a beneficiary of 4ps?</p>
+            <input type="radio" id="YESSS" name="4ps" value="YESSS">
+            <label for="YESSS">Yes</label>
+            <input type="radio" id="NNNO" name="4ps" value="NNNO">
+            <label for="NNNO">No</label>
+
+            <fieldset>
+                <b>Is the child a Learner with Disability?</b>
+                <input type="checkbox" id="YESSSS" name="disability" value="YESSSS">
+                <label for="YESSSS">Yes</label>
+                <input type="checkbox" id="NNNNO" name="disability" value="NNNNO">
+                <label for="NNNNO">No</label><br>
+                <p>If yes, specify the type of Disablity?</p>
+                
+                <input type="checkbox" id="Visual" name="disabilities" value="Visual">
+                <label for="Visual">Visual Impairment</label>
+                <input type="checkbox" id="Hearing" name="disabilities" value="Hearing">
+                <label for="Hearing">Hearing Impairment</label>
+                <input type="checkbox" id="Learning" name="disabilities" value="Learning">
+                <label for="Learning">Learning Disability</label>
+                <input type="checkbox" id="Intell" name="disabilities" value="Intell">
+                <label for="Intell">Intellectual Disability</label><br>
+
+                <input type="checkbox" id="ADIS" name="disabilities" value="ADIS">
+                <label for="ADIS">a. Disability</label>
+                <input type="checkbox" id="AUTI" name="disabilities" value="AUTI">
+                <label for="AUTI">Autism Spectrum Disorder</label>
+                <input type="checkbox" id="EBD" name="disabilities" value="EBD">
+                <label for="EBD">Emotional Behavior Disorder</label>
+                <input type="checkbox" id="OPH" name="disabilities" value="OPH">
+                <label for="OPH">Orthopedic/Physical Handicap</label><br>
+
+                <input type="checkbox" id="BLow" name="disabilities" value="BLow">
+                <label for="BLow">b. Low Vision</label>
+                <input type="checkbox" id="SLD" name="disabilities" value="SLD">
+                <label for="SLD">Speech/Language Disorder</label>
+                <input type="checkbox" id="CP" name="disabilities" value="CP">
+                <label for="CP">Cerebral Palsy</label>
+                <input type="checkbox" id="SHP" name="disabilities" value="SHP">
+                <label for="SHP">Special Health Problem/Chronic Disease</label><br>
+                
+                <input type="checkbox" id="MD" name="disabilities" value="MD">
+                <label for="MD">Multiple Disorder</label>
+                <input type="checkbox" id="ACAN" name="disabilities" value="ACAN">
+                <label for="ACAN">a. Cancer</label>br
+            </fieldset>
+            <hr>
+            <b>Current Address</b>
+            <hr>
+            <input type="text" placeholder="House No.">
+            <input type="text" placeholder="Sitio/Street Name">
+            <input type="text" placeholder="Barangay"><br>
+            <input type="text" placeholder="Municipality/City">
+            <input type="text" placeholder="Province">
+            <input type="text" placeholder="Country">
+            <input type="text" placeholder="Zip Code">
+            <hr>
+            <p><b>PERMANENT ADDRESS</b> Same as Current Address<input type="radio" id="YESSSSS" name="CAdd" value="YESSSSS"><label for="YESSSSS">Yes</label><input type="radio" name="CAdd" id="NNNNNNO" value="NNNNNNO"><label for="NNNNNNO">No</label></p>
+            <hr>
+            <input type="text" placeholder="House No.">
+            <input type="text" placeholder="Sitio/Street Name">
+            <input type="text" placeholder="Barangay"><br>
+            <input type="text" placeholder="Municipality/City">
+            <input type="text" placeholder="Province">
+            <input type="text" placeholder="Country">
+            <input type="text" placeholder="Zip Code">
+            <hr>
+            <b>PARENT'S/GUARDIAN'S INFORMATION</b>
+            <hr>
+            <b>Father's Name</b><br>
+            <input type="text" placeholder="Last Name">
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Middle Name">
+            <input type="text" placeholder="Contact Number"><br>
+            <b>Mother's Name</b><br>
+            <input type="text" placeholder="Last Name">
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Middle Name">
+            <input type="text" placeholder="Contact Number"><br>
+            <b>Legal Guardian's Name</b><br>
+            <input type="text" placeholder="Last Name">
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Middle Name">
+            <input type="text" placeholder="Contact Number"><br>
+        </fieldset>
+        <fieldset>
+            <hr>
+            <b>For Returning Learner(Balik-Aral) and Those Who will Transfer/Move In</b>
+            <hr>
+            <label for="gradeLevel">Last Grade Level Completed</label>
+            <input type="text" id="gradeLevel" name="gradeLevel" placeholder="Last Grade Level Completed">
+            <label for="LastSchool">Last School Year Completed</label>
+            <input type="text" id="LastSchool" name="LastSchool" placeholder="Last School Year Completed"><br>
+            <label for="lastatt">Last School Attended</label>
+            <input type="text" id="lastatt" name="lastatt" placeholder="Last School Attended">
+            <label for="schoolid">School ID</label>
+            <input type="text" id="schoolid" name="schoolid" placeholder="School ID"><br>
+            <hr>
+            <b>For Learners in Senior High School</b>
+            <hr>
+            <p>Semester <input type="radio" id="first" name="track" value="first"><label for="first">1st</label><input type="radio" id="2nd" name="track" value="2nd"><label for="2nd">2nd</label><label for="tracker">Track</label><input type="text" id="tracker" name="tracker" placeholder="Track"><label for="STR">Strand</label><input type="text" id="STR" name="STR" placeholder="Strand"></p><br>
+
+            <fieldset>
+                <b>If school will implement other distance learning modalities aside from face-to-face instruction, what would you prefer for your child?</b>
+                <p>Choose all that apply:</p>
+                <input type="checkbox" id="M" name="apply" value="M">
+                <label for="M">Modular(Print)</label>
+                <input type="checkbox" name="apply" id="ONL" value="ONL">
+                <label for="ONL">Online</label>
+                <input type="checkbox" name="apply" id="RBI" value="RBI">
+                <label for="RBI">Radio-Based Instruction</label>
+                <input type="checkbox" name="apply" id="BLD" value="BLD">
+                <label for="BLD">Blended</label><br>
+                <input type="checkbox" name="apply" id="MDI" value="MDI">
+                <label for="MDI">Modular(Digital)</label>
+                <input type="checkbox" name="apply" id="ET" value="ET">
+                <label for="ET">Education Television</label>
+                <input type="checkbox" name="apply" id="HS" value="HS">
+                <label for="HS">Home Schooling</label>
+            </fieldset>
+            <p>I hereby certify that the above information given are true and correct to the best of my knowledge and I allow the Department of Education to use my child's details to create and/or update his/her learner profile in the Learner Information System. The information herein shall be treated as confidential in compliance with the Data Privacy Act of 2012.</p><br>
+            <label for="SO">Signature Over Printed Name of Parent/Guardian: </label>
+            <input type="text" name="SO" id="SO"><br>
+            <label for="DATe">Date:</label>
+            <input type="date" id="DATe" name="DATe">
+        </fieldset>
+    </body>
+</html>
